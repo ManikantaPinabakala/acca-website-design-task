@@ -1,3 +1,13 @@
+# IndigoLearn website design task
+
+I did this project as a part of the Self-Evaluation test that I participated in with `NxtWave`.
+
+You can see the details of the task and UI in the below link:
+
+https://docs.google.com/document/d/1Qp-Nor41I1-R8uf55tg7aLO3q28ipXNjou0-AnFdgQ0/edit
+
+Below is a guide on what you can do in this project:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
