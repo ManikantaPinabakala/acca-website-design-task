@@ -1,0 +1,77 @@
+.become-acca-container {
+    background-color: rgb(242, 248, 255);
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.become-acca-inner-1 {
+    width: 50%;
+}
+
+.become-acca-text {
+    font-size: 28px;
+    color: rgb(56, 50, 50);
+    margin-top: 0;
+}
+
+.intro-text {
+    color: rgb(89, 87, 87);
+    font-weight: bold;
+}
+
+.brochure-container {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.acca-logo {
+    height: 48.75px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: rgb(190, 190, 215) 0px 5px 3px, rgb(190, 190, 215) 0px 5px 12px;
+}
+
+.become-acca-inner-2 {
+    width: 42%;
+    background-color: #ffffff;
+    border-top: 3px solid rgb(61, 0, 127);
+    border-radius: 5px;
+    box-shadow: rgb(190, 190, 215) 0px 5px 3px, rgb(190, 190, 215) 0px 5px 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aspiring-text {
+    text-align: center;
+    color: rgb(56, 50, 50);
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.input-field {
+    width: 96%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.request-callback-button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(61, 0, 127);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+}

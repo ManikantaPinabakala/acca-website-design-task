@@ -1,0 +1,35 @@
+.wcu-card {
+    width: 18%;
+    background-color: rgb(242, 248, 255);
+    box-shadow: rgb(190, 190, 215) 0px 5px 3px, rgb(190, 190, 215) 0px 5px 12px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin-inline: 20px;
+    margin-bottom: 50px;
+}
+
+.card-image {
+    width: 35%;
+}
+
+.card-headline {
+    text-align: center;
+    color: rgb(61, 0, 127);
+    font-size: 22px;
+}
+
+.card-text {
+    text-align: center;
+    color: rgb(89, 87, 87);
+    font-size: 18px;
+}
+
+@media screen and (max-width: 700px) {
+    .wcu-card {
+        width: 95%;
+    }
+}

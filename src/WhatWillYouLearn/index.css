@@ -1,0 +1,101 @@
+.wwyl-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.heading-container {
+    width: 100%;
+}
+
+.why-heading {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.horizontal-break {
+    width: 8%;
+    border: 2px solid rgb(61, 0, 127);
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.wwyl-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.wwyl-card {
+    width: 20%;
+    box-shadow: rgb(190, 190, 215) 0px 5px 3px, rgb(190, 190, 215) 0px 5px 12px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-inline: 20px;
+}
+
+.top-heading-container {
+    background-color: rgb(61, 0, 127);
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+}
+
+.top-heading {
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.list-container {
+    flex-grow: 1;
+    background-color: rgb(242, 248, 255);
+    padding-block: 10px;
+}
+
+.wwyl-card-list {
+    margin-block: 20px;
+}
+
+.wwyl-card-list-item {
+    font-size: 12px;
+    color: rgb(56, 50, 50);
+    font-weight: 600;
+    margin-block: 10px;
+}
+
+.bottom-heading-container {
+    background-color: rgb(61, 0, 127);
+    padding: 3px;
+    border-radius: 0 0 5px 5px;
+}
+
+.bottom-heading {
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.wwyl-card-list-item-heading {
+    list-style-type: none;
+    font-size: 16px;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+@media screen and (max-width: 700px) {
+    .wwyl-cards-container {
+        flex-wrap: wrap;
+    }
+
+    .wwyl-card {
+        width: 50%;
+        min-height: 300px;
+        margin-bottom: 30px;
+    }
+}
